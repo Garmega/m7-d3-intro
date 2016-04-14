@@ -34,6 +34,8 @@ $(function() {
       return d.favColor
     });
 
+  paragraphs.exit().remove();
+
   // Use `setTimeout` function to wait 3 seconds, then do the following
 
     // Re-define your variable `paragraphs` by selecting all `p` elements in `myDiv`, and binding the data `people2` to it.
